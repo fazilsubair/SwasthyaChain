@@ -59,9 +59,9 @@ The projects requires NodeJS and npm to work. Instructions to install all other 
     ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "['PUT', 'POST', 'GET']"
     
     
-     ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[/"*/"]"
-    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[/"true/"]"
-    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "[/"PUT/", /"POST/", /"GET/"]"
+     ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]"
+    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"
+    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "[\"PUT\", \"POST\", \"GET\"]"
     ```
 
     > Note: If you face any issues with the above command on windows, try using command prompt and escape sequences or git bash.
