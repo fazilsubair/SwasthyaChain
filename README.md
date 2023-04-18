@@ -95,6 +95,8 @@ var agentContractAddress = '0x75E115394aacC7c6063E593B9292CB9417E4cbeC';
 ### Running the dApp
 
 #### 1. Connecting Metamask to our local blockchain
+
+  - create new network with creds of ganche and chain id is 1337
   - Connect metamask to localhost:8485
   - Click on import account
   ![alt text](https://raw.githubusercontent.com/SuyashMore/SwasthyaChain/master/images/meta-1.png)
